@@ -1,0 +1,11 @@
+line = 'Alot        of spaces'
+etc = line.split()
+print(etc)
+
+line =  'first;second;third'
+thing = line.split()
+print(thing)
+
+thing = line.split(';')
+print(thing)
+print(len(thing))
